@@ -1,6 +1,6 @@
-FROM node:12-alpine
+FROM node:latest
 WORKDIR /Users/mamdou/DevOps/weather-app
-COPY package*.json /app
+COPY . /app
 RUN npm install
 COPY . /Users/mamdou/DevOps/weather-app
 CMD ["npm","start"]
