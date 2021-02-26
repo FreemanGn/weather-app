@@ -18,7 +18,7 @@ pipeline {
         }
     stage('Construction Image Docker ') {
       steps {
-        sh 'docker build -t FreemanGn/weather-app .'
+        sh 'docker build -t freemangn/weather-app .'
             }
         }
     
